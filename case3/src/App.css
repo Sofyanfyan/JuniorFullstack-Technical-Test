@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Miniver&family=Open+Sans:wght@300&display=swap');
+
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Miniver', cursive;
+font-family: 'Open Sans', sans-serif; */
+
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+   height: 50px;
+   width: 50px;
+}
+
+.list-menus {
+   background-image: linear-gradient(white, black);
+}
+
+.carousel {
+   text-align: center;
+   width: auto;
+   height: 500px;
+}
+
+.carousel-image {
+   height: 500px;
+}
+
+.card {
+   width: 18rem;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /* font-family: 'Open Sans', sans-serif;  */
+}
+
+
+.header {
+   text-align: center;
+   font-family: 'Comfortaa', cursive;
+   margin-bottom: 2rem;
+   font-size: 2rem;
+}
+
+.container {
+   width: 100%;
+}
+
+.carousel-text {
+   text-align: justify;
+}
+
+.order {
+   width: 100%;
+   background-image: linear-gradient(rgb(0, 0, 0), #0d0d0d);
+   display: flex;
+   justify-content: center;
+}
+
+.order-list {
+   text-align: center;
+   width: 75%;
+}
+
+.header-about {
+   color: #fff;
+   font-family: 'Comfortaa', cursive;
+   margin-bottom: 2rem;
+}
+
+.p-about{
+   color: azure;
+   text-align: justify;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.nav-logo {
+   width: 40%;
+   display: flex;
+   justify-content: center;
+}
+
+.text-logo {
+   font-family: 'Miniver', cursive;
+   height: 100%;
+}
+
+.nav-content {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
