@@ -59,7 +59,25 @@ module.exports = {
          price: 11000,
          createdAt: new Date(),
          updatedAt: new Date(),
-      }
+      },
+      {
+         name: 'Mozza Hot Dog',
+         description: 'Generously top the cooked hot dog and toasted bun with marinara sauce. The bun will soak up the sauce, so you really want to cram as much of it on there as will fit. Then layer three slices of mozzarella cheese on top, and broil until bubbly.',
+         image: 'https://twoplaidaprons.com/wp-content/uploads/2021/01/Korean-cheese-corn-dogs-angled-view-of-fried-corn-dogs-on-a-plate-with-ketcup-and-mustard.jpg',
+         stock: 4,
+         price: 14000,
+         createdAt: new Date(),
+         updatedAt: new Date(),
+      },
+      {
+         name: 'Mozza Hot Dog',
+         description: 'Generously top the cooked hot dog and toasted bun with marinara sauce. The bun will soak up the sauce, so you really want to cram as much of it on there as will fit. Then layer three slices of mozzarella cheese on top, and broil until bubbly.',
+         image: 'https://twoplaidaprons.com/wp-content/uploads/2021/01/Korean-cheese-corn-dogs-angled-view-of-fried-corn-dogs-on-a-plate-with-ketcup-and-mustard.jpg',
+         stock: 4,
+         price: 14000,
+         createdAt: new Date(),
+         updatedAt: new Date(),
+      },
     ]
 
     return queryInterface.bulkInsert('Products', data)
